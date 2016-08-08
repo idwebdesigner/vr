@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Learn Programming: Javascript</title>
+        <title>Learn Programming: Virtual Reality</title>
 
         <!-- Vendor CSS -->
         <link href="vendors/bower_components/animate.css/animate.min.css" rel="stylesheet">
@@ -21,22 +21,14 @@
         <script src="js/jquery-2.1.0.min.js"></script>
         <script src="js/jquery.jscroll.min.js"></script>
         <script>$(function(){
-        $("#contentloader1").load("http://virtualteality.learn.designer.web.id/content-message.html"); $("#contentloader2").load("http://virtualteality.learn.designer.web.id/content-right.html");
+        $("#contentloader1").load("http://virtualteality.learn.designer.web.id/content-message.html");
+        $("#contentloader2").load("http://virtualteality.learn.designer.web.id/content-right.html");
         });</script>
+
     </head>
+
     <body>
-
-        <!-- Page Loader -->
-        <div class="page-loader">
-            <div class="preloader" style="text-align:center;">
-                <svg class="pl-circular" viewBox="25 25 50 50">
-                    <circle class="plc-path" cx="50" cy="50" r="20" />
-                </svg><br/><br/>
-                <div style="font-size:8px;margin-left:-80px;width:200px" class="demo"></div>
-            </div>
-        </div>
-
-        <header id="header" class="clearfix container">
+        <header id="header" class="clearfix">
             <ul class="h-inner">
 
                 <li class="hi-logo" data-ma-action="sidebar-open" data-ma-target="#sidebar" style="margin-top:5px;">
@@ -112,7 +104,8 @@
                     </ul>
                 </li>
             </ul>
-            <ul class="tab-nav tn-justified tn-icon" role="tablist" style="width:100%">
+
+            <ul class="tab-nav tn-justified tn-icon" role="tablist">
                                         <li role="presentation" class="active">
                                             <a class="col-sx-4" href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">
                                                 <i class="zmdi zmdi-home icon-tab"></i>
@@ -124,20 +117,15 @@
                                             </a>
                                         </li>
                                         <li role="presentation">
-                                            <a class="col-xs-" href="#tab-3" aria-controls="tab-3" role="tab" data-toggle="tab">
+                                            <a class="col-xs-4" href="#tab-3" aria-controls="tab-3" role="tab" data-toggle="tab">
                                                 <i class="zmdi zmdi-star icon-tab"></i>
                                             </a>
                                         </li>
                                     </ul>
+
         </header>
 
         <section id="main">
-            <ol class="breadcrumb" style="margin-left:-10px;">
-                <li><a href="developer.html">designer.web.id</a></li>
-                <li><a href="index.html">learn</a></li>
-                <li class="active">virtualreality</li>
-            </ol>
-
             <aside id="sidebar" class="sidebar c-overflow" style="position:fixed;z-index:1000;margin-top:-70px;height:100%;">
                 <ul class="main-menu">
                     <li class="mm-profile sub-menu">
@@ -214,12 +202,9 @@
 
             </aside>
 
-            <section id="content">
-                <div class="container" style="margin-top:-55px;margin-left:-20px;padding-right:0px;">
-                    <div class="tab-content p-20" style="background:#13191C;">
-
-                    <div role="tabpanel" class="tab-pane animated fadeIn in active" id="tab-1">
-                        <h5>Editor's Choice</h5><span style="float:right;margin-top:-25px;color:#999999"><a href="editorchoice.html">VIEW ALL</a></span>
+                                    <div class="tab-content p-20" style="background:#13191C;">
+                                        <div role="tabpanel" class="tab-pane animated fadeIn in active" id="tab-1">
+                                            <h5>Editor's Choice</h5><span style="float:right;margin-top:-25px;color:#999999"><a href="editorchoice.html">VIEW ALL</a></span>
 
                         <div class="card-body table-responsive">
                             <table class="table">
@@ -330,9 +315,11 @@
                             </div>
                                         </div>
 
-                    <div role="tabpanel" class="tab-pane animated fadeIn" id="tab-2">
 
-                    <div class="card" style="margin-left:-20px;margin-right:-20px;margin-top:-20px;margin-bottom:-120px;background:#222C32;">
+
+                                        <div role="tabpanel" class="tab-pane animated fadeIn" id="tab-2">
+
+                    <div class="card" style="margin-left:-20px;margin-right:-20px;margin-top:-15px;margin-bottom:-120px;background:#222C32;">
                         <div style="background:#222C32;height:10px;"></div>
 
                             <table id="grid-basic" class="table table-hover table-striped">
@@ -663,11 +650,11 @@
                             </table>
                     </div>
 
-                    </div>
+                                        </div>
 
-                    <div role="tabpanel" class="tab-pane animated fadeIn" id="tab-3" style="margin-top:-20px;margin-left:-20px;margin-right:-20px;background:#222C32;margin-bottom:-130px;">
+                                        <div role="tabpanel" class="tab-pane animated fadeIn" id="tab-3" style="margin-top:-20px;margin-left:-20px;margin-right:-20px;background:#222C32;margin-bottom:-130px;">
 
-                        <div class="card-body card-padding" style="padding-top:20px;margin-left:25px;margin-right:20px;">
+                        <div class="card-body card-padding" style="padding-top:20px;margin-left:20px;margin-right:20px;">
                              <div class="lightbox photos">
 
                                  <div data-src="img/angular.png" class="col-md-2 col-sm-4 col-xs-4">
@@ -799,10 +786,10 @@
 
                                         </div>
 
-                    </div>
-                </div>
-            </section>
+                                    </div>
         </section>
+
+
 
         <!-- Page Loader -->
         <div class="page-loader">
